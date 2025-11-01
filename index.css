@@ -1,0 +1,73 @@
+@font-face {
+  font-family: 'Cursed Timer ULiL'; /* 自定义字体名 */
+  src: url('./CursedTimerUlil-Aznm.ttf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* 页面加载时优先显示系统字体，字体加载后再替换 */
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  width: 575px;
+  height: 385px;
+  background: #1b244a;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.board-title {
+  width: 149px;
+  height: 36px;
+  margin-top: 68px;
+  margin-bottom: 21px;
+  font-family: Verdana;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 35.89px;
+  text-align: center;
+  color: #eeeeee;
+}
+
+.home-score {
+  width: 155;
+  height: 120;
+  border-radius: 5px;
+  background: #080001;
+  font-family: Cursed Timer ULiL;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 90px;
+  line-height: 126.67px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #f94f6d;
+}
+
+.add-points-btns-home {
+  width: 155px;
+  height: 45px;
+  margin-top: 26px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.plus-button {
+  width: 45px;
+  height: 45px;
+  opacity: 1;
+  border-radius: 5px;
+  border: 2px solid #9aabd8;
+  background: #1b244a;
+
+  font-family: Cursed Timer ULiL;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27.81px;
+  text-align: center;
+  color: #9aabd8;
+}
